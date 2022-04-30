@@ -4,7 +4,7 @@ CREATE TABLE cliente (
 	email VARCHAR(50) NOT NULL,
 	senha VARCHAR(8) NOT NULL, 
 	cpf CHAR(11) NOT NULL, 
-    data_nascimento DATE NOT NULL,
+        data_nascimento DATE NOT NULL,
 	sexo CHAR(1)	 
 );
 
@@ -19,12 +19,12 @@ CREATE TABLE livro (
 	id SERIAL PRIMARY KEY,
 	titulo VARCHAR(100) NOT NULL,
 	numero_paginas INT NOT NULL, 
-    quantidade INT DEFAULT 0 NOT NULL, 
+        quantidade INT DEFAULT 0 NOT NULL, 
 	preco NUMERIC(7,2) CHECK(preco > 0) NOT NULL,   
 	formato VARCHAR(50),
-    editora VARCHAR(50), 
-    categoria VARCHAR(50),
-    descricao TEXT
+    	editora VARCHAR(50), 
+    	categoria VARCHAR(50),
+    	descricao TEXT
 );
 
 CREATE TABLE autor (
@@ -32,14 +32,14 @@ CREATE TABLE autor (
 	nome VARCHAR(50) NOT NULL,
 	data_nascimento DATE NOT NULL, 
 	data_falecimento DATE, 
-    nacionalidade VARCHAR(50),
-    descricao TEXT
+    	nacionalidade VARCHAR(50),
+    	descricao TEXT
 );
 
 CREATE TABLE endereco (
 	id SERIAL PRIMARY KEY,
 	logradouro VARCHAR(100) NOT NULL,
-    bairro VARCHAR(50) NOT NULL, 
+    	bairro VARCHAR(50) NOT NULL, 
 	numero INT NOT NULL, 
 	cep CHAR(8) NOT NULL,
 	complemento VARCHAR(50),
