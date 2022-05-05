@@ -1,0 +1,21 @@
+"id","nome","email","senha","cpf","data_nascimento","sexo"
+1,"Gabriela","gabriela@gmail.com","12345678","1          ","1994-12-20","F"
+2,"Pedro","pedro@gmail.com","12345678","10000000001","1993-12-20","M"
+3,"João","joao@gmail.com","12345678","10000000002","1993-01-10","M"
+4,"Mateus","mateus@gmail.com","12345678","10000000003","1993-02-01","M"
+5,"Fernando","fernando@gmail.com","12345678","10000000004","1992-03-15","M"
+6,"Paulo","paulo@gmail.com","12345678","10000000005","1996-04-23","M"
+7,"Gabriel","gabriel@gmail.com","12345678","10000000006","1997-05-08","M"
+8,"Lucas","lucas@gmail.com","12345678","10000000007","1998-06-16","M"
+9,"Jhonatas","jhonatas@gmail.com","12345678","10000000008","1999-07-22","M"
+10,"Emerson","emerson@gmail.com","12345678","10000000009","2000-08-07","M"
+11,"Marcos","marcos@gmail.com","12345678","20000000001","2003-09-05","M"
+12,"Lara","lara@gmail.com","12345678","30000000001","1994-12-20",NULL
+13,"Melissa","melissa@gmail.com","12345678","20000000001","1991-12-15",NULL
+14,"Carla Cristina","carla_cris@gmail.com","12345678","30000000001","1994-10-20",NULL
+15,"Lorena","lorena@gmail.com","12345678","30000000001","1995-08-20",NULL
+16,"Ana Gabriela","gabs@gmail.com","12345678","40000000001","1978-07-20",NULL
+17,"Rafaela","rafaela@gmail.com","12345678","50000000001","1992-12-25",NULL
+18,"Paulo","paulo94@gmail.com","12345678","60000000001","1994-02-10",NULL
+19,"Carla","carla@gmail.com","12345678","70000000001","1980-02-04",NULL
+20,"Gabriela","gabi@gmail.com","12345678","80000000001","1998-11-06",NULL

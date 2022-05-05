@@ -1,0 +1,21 @@
+"id","titulo","numero_paginas","quantidade","preco","formato","editora","categoria","descricao"
+1,"O Homem Que Lia Almas",324,10,39.2,NULL,NULL,NULL,NULL
+2,"Reconstrução: O Brasil Nos Anos 20",488,25,103.2,NULL,NULL,NULL,NULL
+3,"A Riqueza E A Pobreza",154,16,31.92,NULL,NULL,NULL,NULL
+4,"Do mil ao milhão",192,2,32.7,NULL,NULL,NULL,NULL
+5,"A Casa Da Bruxa Natural",256,19,55.2,NULL,NULL,NULL,NULL
+6,"Mais Esperto Que O Diabo",300,10,32.2,NULL,NULL,NULL,NULL
+7,"Cuidar Uns Dos Outros",336,28,50.3,NULL,NULL,NULL,NULL
+8,"Heartstopper De Mãos Dadas",384,0,55.16,NULL,NULL,NULL,NULL
+9,"O Poder Da Cura",176,13,24.8,NULL,NULL,NULL,NULL
+10,"Quintessencia",424,87,58.7,NULL,NULL,NULL,NULL
+11,"A Jornada Da Heroína",224,19,39.92,NULL,NULL,NULL,NULL
+12,"O Médico Da Emoção",288,100,39.92,NULL,NULL,NULL,NULL
+13,"Gogo De Onde Vem Os Bebes",40,5,40.0,NULL,NULL,NULL,NULL
+14,"Demon Slayer - Kimetsu No Yaiba 22",192,34,26.9,NULL,NULL,NULL,NULL
+15,"Um Perfeito Cavalheiro",512,47,53.1,NULL,NULL,NULL,NULL
+16,"Noivas Em Fuga",216,58,27.4,NULL,NULL,NULL,NULL
+17,"Como Fazer Amigos E Influenciar Pessoas",256,57,43.4,NULL,NULL,NULL,NULL
+18,"Uma Faisca De Imaginacao",248,55,30.2,NULL,NULL,NULL,NULL
+19,"Viva Mais, Pense Menos",176,89,33.92,NULL,NULL,NULL,NULL
+20,"Nós Do Brasil",252,97,43.92,NULL,NULL,NULL,NULL
