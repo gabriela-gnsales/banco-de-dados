@@ -111,6 +111,29 @@ INSERT INTO livro (titulo, numero_paginas, quantidade, preco) VALUES
 
 -- Façam 5 consulta simples utilizando SELECT, FROM e WHERE;
 
+SELECT MIN(preco) 
+FROM livro;
+
+SELECT MAX(numero_paginas) 
+FROM livro;
+
+SELECT SUM(quantidade)
+FROM livro;
+
+SELECT * FROM cliente
+WHERE nome = 'Gabriela';
+
+SELECT * FROM cliente
+WHERE nome LIKE 'C%';
+
 -- Façam um comando utilizando DELETE e outro usando o UPDATE;
 
+DELETE FROM livro WHERE quantidade = 0;
+
+UPDATE cliente
+SET nome = 'Joao Pedro' 
+WHERE id = 3;
+
 -- Façam uma consulta aplicando o GROUP BY e alguma função de agregação.
+
+SELECT preco, COUNT(*) as contagem FROM livro GROUP BY preco;
