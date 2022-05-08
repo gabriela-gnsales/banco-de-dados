@@ -41,10 +41,19 @@ LIMIT 5;
 
 SELECT DISTINCT customer_id, COUNT(*) FROM orders
 GROUP BY customer_id, employee_id
-HAVING COUNT(*) > 1 AND employee_id IS NOT NULL
+HAVING COUNT(*) >= 2 AND employee_id IS NOT NULL
 
 -- 8) Existe alguma cidade com mais de um código de área de telefone?
 
+
 -- 9) Gere uma relação com os nomes dos clientes, suas cidades e países, em ordem alfabética de nome;
 
+SELECT contact_name, city, country FROM customers
+ORDER BY contact_name;
+
 -- 10) Na relação do item (9), filtre pelos clientes da Alemanha, da França e da Espanha, excluindo-se os clientes que vivem nas capitais destes países;
+
+SELECT contact_name, city, country FROM customers
+WHERE (country LIKE 'Germany' OR country LIKE 'France' OR country LIKE 'Spain')
+AND (city NOT LIKE 'Berlin' AND city NOT LIKE 'Paris' AND city NOT LIKE 'Madrid')
+ORDER BY contact_name;
